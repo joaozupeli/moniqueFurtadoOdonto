@@ -1,0 +1,41 @@
+/* ============================================================
+   Dra. Monique Furtado Odontologia — Design system
+   LIGHT theme — soft white/cream + champagne gold + warm taupe:
+   display serifado grande e rótulos em monoespaçada.
+   ============================================================ */
+
+:root {
+  /* Superfícies */
+  --ink: #faf8f5;
+  --ink-raise: #ffffff;
+  --ink-deep: #f3efe8;
+
+  /* Texto */
+  --paper: #2a2420;
+  --paper-soft: rgba(42, 36, 32, 0.64);
+  --paper-faint: rgba(42, 36, 32, 0.40);
+
+  /* Filetes */
+  --line: rgba(42, 36, 32, 0.12);
+  --line-strong: rgba(42, 36, 32, 0.28);
+
+  /* Acentos */
+  --accent: #c4a574;
+  --accent-deep: #a8885a;
+  --mint: #c9b8a8;
+  --wa: #25d366;
+
+  /* Tipografia */
+  --font-display: 'Fraunces', 'Times New Roman', serif;
+  --font-body: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Métrica */
+  --shell: 1360px;
+  --gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --header-h: 76px;
+  --section-y: clamp(5rem, 11vw, 10rem);
+  --tap-min: 44px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
